@@ -1,0 +1,13 @@
+# ローカル実行用のコマンド
+
+# pip のアップグレード
+python -m pip install --upgrade pip
+
+#streamlitのインストール
+pip install --upgrade streamlit
+
+# requirements.txt からパッケージをインストール
+pip install -r requirements.txt
+
+# ローカルサーバーの立上げ
+streamlit run app.py
